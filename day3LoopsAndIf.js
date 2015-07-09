@@ -106,15 +106,15 @@ var obj = {
     // Remember that we use || for or statements. 
 // 9. Now let's combine an if statement with our array for loop. 
   // Let's put 
-  if(arr[i]) {
-    console.log(arr[i]);
-  }
+  // if(arr[i]) {
+  //   console.log(arr[i]);
+  // }
   // inside of our for loop. What do you expect this to log? 
   // Remember that JavaScript does type coercion, forcing whatever is in the conditional part of our if(conditional) statement to be a boolean value
   // Let's try this again:
-  if(0) {
-    console.log(arr[i]);
-  }
+  // if(0) {
+  //   console.log(arr[i]);
+  // }
   // Keep trying different combinations inside the conditional part of the if loop. Particularly, try:
   /*
   ''
